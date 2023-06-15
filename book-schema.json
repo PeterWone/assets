@@ -1,75 +1,117 @@
 {
-  "$schema": "http://json-schema.org/draft-07/schema#",
-  "type": "object",
-  "properties": {
-    "title": {
-      "type": "string"
-    },
-    "subtitle": {
-      "type": "string"
-    },
-    "authors": {
-      "type": "array",
-      "items": {
-        "type": "string"
-      }
-    },
-    "frontMatter": {
-      "type": "array",
-      "items": {
-        "type": "string"
-      }
-    },
-    "backMatter": {
-      "type": "array",
-      "items": {
-        "type": "string"
-      }
-    },
-    "body": {
-      "type": "array",
-      "items": {
-        "type": "string"
-      }
-    },
-    "paperSize": {
-      "type": "string"
-    },
-    "outerMargin": {
-      "type": "string"
-    },
-    "first": {
-      "type": "object",
-      "properties": {
-        "topCentre": {
-          "type": "string"
-        }
-      }
-    },
-    "left": {
-      "type": "object",
-      "properties": {
-        "topCentre": {
-          "type": "string"
-        },
-        "bottomCentre": {
-          "type": "string"
-        }
-      }
-    },
-    "right": {
-      "type": "object",
-      "properties": {
-        "topCentre": {
-          "type": "string"
-        }
-      }
-    },
-    "stylesheets": {
-      "type": "array",
-      "items": {
-        "type": "string"
-      }
-    }
-  }
+	"$schema": "http://json-schema.org/draft-07/schema#",
+	"type": "object",
+	"properties": {
+		"title": {
+			"type": "string"
+		},
+		"subtitle": {
+			"type": "string"
+		},
+		"authors": {
+			"type": "array",
+			"items": {
+				"type": "string"
+			}
+		},
+		"frontMatter": {
+			"type": "array",
+			"items": {
+				"type": "string"
+			}
+		},
+		"backMatter": {
+			"type": "array",
+			"items": {
+				"type": "string"
+			}
+		},
+		"body": {
+			"type": "array",
+			"items": {
+				"type": "string"
+			}
+		},
+		"paperSize": {
+			"type": "string"
+		},
+		"outerMargin": {
+			"type": "string"
+		},
+		"first": {
+			"type": "object",
+			"properties": {
+				"topInner": {
+					"type": "string"
+				},
+				"topCentre": {
+					"type": "string"
+				},
+				"topOuter": {
+					"type": "string"
+				},
+				"bottomInner": {
+					"type": "string"
+				},
+				"bottomCentre": {
+					"type": "string"
+				},
+				"bottomOuter": {
+					"type": "string"
+				}
+			}
+		},
+		"left": {
+			"type": "object",
+			"properties": {
+				"topInner": {
+					"type": "string"
+				},
+				"topCentre": {
+					"type": "string"
+				},
+				"topOuter": {
+					"type": "string"
+				},
+				"bottomInner": {
+					"type": "string"
+				},
+				"bottomCentre": {
+					"type": "string"
+				},
+				"bottomOuter": {
+					"type": "string"
+				}
+			}
+		},
+		"right": {
+			"type": "object",
+			"properties": {
+				"topInner": {
+					"type": "string"
+				},
+				"topCentre": {
+					"type": "string"
+				},
+				"topOuter": {
+					"type": "string"
+				},
+				"bottomInner": {
+					"type": "string"
+				},
+				"bottomCentre": {
+					"type": "string"
+				},
+				"bottomOuter": {
+					"type": "string"
+				}
+			}
+		},
+		"stylesheets": {
+			"type": "array",
+			"items": {
+				"type": "string"
+			}
+		}
+	}
 }
